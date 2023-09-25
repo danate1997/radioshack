@@ -2,6 +2,9 @@
   "name": "react-and-express-boilerplate",
   "private": true,
   "version": "0.0.0",
+  "prisma": {
+    "seed": "node ./prisma/db/seed.js"
+  },
   "scripts": {
     "dev": "clear && concurrently 'npm run less' 'npm run server'",
     "build": "vite build",
